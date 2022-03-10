@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(15, 49, 65);
+   
+}
+
+
+
+h2{
+    text-decoration: none;  
+    padding: 2%;
+    margin: 5%;
+    margin-left: 0%;
+    background-color: rgba(18, 67, 104, 0.561);
+    color: rgb(225, 229, 235);
+    text-shadow: 2px 2px black;
+    font-size: 20px;
+    text-align: center;
+    
+    
+}
+
+.CajaCalculadora{
+    background-color: rgba(29, 95, 133, 0.904);
+    width: 25%;
+    border-radius: 3%;
+    border-right: 5px solid rgba(18, 67, 104, 0.561);
+    border-top: 5px solid rgba(16, 52, 80, 0.561);
+    margin-left: 38%;
+    margin-top: 5%;
+    height: 550px;
+}
+
+
+
+.listaDeNumeros{
+    list-style: none;
+    
+}
+
+
+
+#numero1,#numero2{
+    text-decoration: none;  
+    padding: 2%;
+    margin: 5%;
+    margin-left: 5%;
+    background-color: rgba(18, 67, 104, 0.561);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.signs{
+    
+    list-style: none;
+    text-decoration: none;
+    display: inline-flex;  
+    padding: 1%;
+    margin: 6%;   
+    background-color: rgba(14, 40, 59, 0.561);
+}
+
+button{
+    font-size: 20px;
+    background-color: rgb(28, 69, 102);
+    color: white;
+}
+
+.totalCaja{
+    
+    background-color: rgba(14, 45, 70, 0.561);
+    width: 85%;
+    height: 90px;
+    margin-left: 3%;
+    border-radius: 2%;
+    border: 3px solid  rgba(9, 32, 51, 0.561);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.totalCaja h1{
+    
+    color: rgba(255, 255, 255, 0.835);
+    text-align: center;
+    font-size: 30px;
+}

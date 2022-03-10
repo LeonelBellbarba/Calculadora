@@ -3,9 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="calculadoraCss.css">
+    <script src="calculadoraJS.js"></script>
+
+    <title>Calculadora</title>
 </head>
 <body>
-    
-</body>
-</html>
+    <div>
+        <!-- <img src="CalculadoraFondo.jpg" alt=""> -->
+        
+        <!-- Calculadora -->
+        <div class="CajaCalculadora">
+        
+            <!-- Numeros -->
+            <div class="Numeros">
+                <ul class="listaDeNumeros">
+                    <h2>Digito 1</h2>
+                    <li><input type="text" id="numero1"></li>
+                    <h2>Digito 2</h2>
+                    <li><input type="text" id="numero2"></li>
+                    
+                    <!-- Signos -->
+                    <li class="signs"><button id= "suma_id" onclick="getNumber('+'); return false">+</button></li>
+                    <li class="signs"><button id= "resta_id" onclick="getNumber('-'); return false" >-</button></li>
+                    <li class="signs"><button id= "multi_id" onclick="getNumber('x'); return false">x</button></li>
+                    <li class="signs"><button id= "divide_id" onclick="getNumber('/'); return false">÷</button></li>
+                    
+                    <h2>Resultado</h2>
+                    <div class="totalCaja"><h1 id="resultado_id"></h1></div>
+                </ul>
+                <!-- Total -->
+                
+            </div>
+            
+            
+        </div>
+        <!-- Final de la caja de la calculadora -->
+        
+    </div>  
+        
+        
+    </body>
+    </html>
