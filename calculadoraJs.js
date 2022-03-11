@@ -29,8 +29,8 @@ const Sum = (num1, num2) =>{
     let resultado = document.getElementById("resultado_id")    
     let total = parseInt(num1) + parseInt(num2);
     
-  
-    resultado.innerHTML = total;
+    // este codigo es para que no cuente mas de 2 numeros luego del punto
+    resultado.innerHTML = Number.parseFloat(total).toFixed(2)
     
 }
 
@@ -38,17 +38,22 @@ const rest = (num1, num2) =>{
     
     let resultado = document.getElementById("resultado_id")    
     let total = parseInt(num1) - parseInt(num2);
-    resultado.innerHTML = total;
+
+    resultado.innerHTML = Number.parseFloat(total).toFixed(2)
 }
 
 const multiplicate = (num1, num2) =>{
     let resultado = document.getElementById("resultado_id")    
     let total = parseInt(num1) * parseInt(num2);
-    resultado.innerHTML = total;
+
+    resultado.innerHTML = Number.parseFloat(total).toFixed(2)
+    
 }
 
 const divide = (num1, num2) =>{
     let resultado = document.getElementById("resultado_id")    
     let total = parseInt(num1) / parseInt(num2);    
-    resultado.innerHTML = total;
+    
+    
+    resultado.innerHTML = Number.parseFloat(total).toFixed(2)
 }
